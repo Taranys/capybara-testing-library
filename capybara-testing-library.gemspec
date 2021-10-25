@@ -4,7 +4,7 @@ require_relative "lib/capybara/testing/library/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "capybara-testing-library"
-  spec.version       = Capybara::Testing::Library::VERSION
+  spec.version       = Capybara::TestingLibrary::VERSION
   spec.authors       = ["Yoann Prot"]
   spec.email         = ["yoann.prot@doctolib.com"]
 

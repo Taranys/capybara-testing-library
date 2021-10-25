@@ -3,10 +3,8 @@
 require_relative "library/version"
 
 module Capybara
-  module Testing
-    module Library
-      class Error < StandardError; end
-      # Your code goes here...
-    end
+  module TestingLibrary
+    class Error < StandardError; end
+    # Your code goes here...
   end
 end
