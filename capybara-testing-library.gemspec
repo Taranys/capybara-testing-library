@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "lib/capybara/testing/library/version"
+require_relative "lib/capybara/testing_library/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "capybara-testing-library"
