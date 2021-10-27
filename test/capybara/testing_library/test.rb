@@ -8,7 +8,7 @@ class Capybara::TestingLibrary::Test < Minitest::Test
   include Capybara::Minitest::Assertions
 
   def setup
-    Capybara.default_driver = :selenium_chrome
+    Capybara.default_driver = :selenium_chrome_headless
     Capybara.app_host = 'file://'+__dir__+'/../../fixture'
   end
   
