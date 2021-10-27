@@ -11,5 +11,5 @@ gem "minitest", "~> 5.0"
 
 gem "rubocop", "~> 1.7"
 
-gem 'capybara'
-gem 'selenium-webdriver'
+gem "capybara"
+gem "selenium-webdriver"
