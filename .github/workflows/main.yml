@@ -11,6 +11,8 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.7.2
+    - name: Setup chrome driver (for Selenium)
+      uses: nanasess/setup-chromedriver@master
     - name: Run the default task
       run: |
         gem install bundler -v 2.2.5
