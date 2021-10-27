@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "library/version"
+require_relative "testing_library/version"
 
 module Capybara
   module TestingLibrary
