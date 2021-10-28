@@ -16,8 +16,6 @@ module Capybara
         "//#{tagname}#{text_content(name)}"
       end
 
-      private
-
       def self.text_content(text)
         "[normalize-space()=\"#{text}\"]"
       end

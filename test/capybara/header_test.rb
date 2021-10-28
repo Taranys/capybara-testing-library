@@ -16,7 +16,7 @@ class Capybara::HeaderTest < Capybara::TestingLibrary::Test
 
   def test_that_we_detect_header_with_explicit_role
     visit "/index.html"
-    
+
     assert_selector :role_heading, "Home page"
   end
 end
